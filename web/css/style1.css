@@ -1,0 +1,39 @@
+.aaa
+{
+    font-size: 1em;
+}
+.aaa input
+{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 1em;
+}
+
+table {
+    margin-left: 50px;
+    margin-right: 50px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 10px;
+}
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+table th,
+table td {
+  text-align: center;
+}
+table th {
+  padding: 10px 10px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+          
+  font-weight: normal;
+  font-size: 1em;
+}
+table td
+{
+    font-weight: normal;
+    font-size: 1em;
+}
