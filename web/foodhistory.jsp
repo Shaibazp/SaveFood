@@ -193,7 +193,7 @@
                                     <th scope="col">Food Type</th>
                                     <th scope="col">Food Menu</th>
                                     <th scope="col">No. of plates</th>
-                                    <th scope="col">Hotel Name</th>
+                                    <th scope="col">Provider Name</th>
                                     <th scope="col">Owner Name</th>
                                     <th scope="col">Contact No</th>
                                 </tr>

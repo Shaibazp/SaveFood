@@ -79,8 +79,8 @@
                                     <th scope="col">Food Type</th>
                                     <th scope="col">Food Menu</th>
                                     <th scope="col">No. of plates</th>
-                                    <th scope="col">Orphanage Name</th>
-                                    <th scope="col">Orphanage Owner Name</th>
+                                    <th scope="col">Organization Name</th>
+                                    <th scope="col">Organization Owner Name</th>
                                     <th scope="col">Contact No</th>
                                 </tr>
                             </thead>

@@ -16,15 +16,15 @@
                 </div>
                 <form action="osave.jsp" method="post">
                     <h2><a class="nav-link active" href="login.jsp">Home</a></h2>
-                    <h2><a class="nav-link active" href="registration.jsp">Hotel Registration</a></h2>
-                    <h2><a class="nav-link" href="OrphanageReg.jsp">Orphanage Registration</a></h2>
-                    <h3>Orphanage Registration</h3>
+                    <h2><a class="nav-link active" href="registration.jsp">Food Provider Registration</a></h2>
+                    <h2><a class="nav-link" href="OrphanageReg.jsp">Food Receiver Registration</a></h2>
+                    <h3>Food Receiver Registration</h3>
                     <div class="form-row">
-                        <input type="text" class="form-control" placeholder="Orphanage Name" name="oName">
+                        <input type="text" class="form-control" placeholder="Organization Name" name="oName">
                         <input type="text" class="form-control" placeholder="Contact No" name="oCont">
                     </div>
                     <div class="form-row">
-                        <input type="text" class="form-control" placeholder="Orphanage Address" name="oaddress">
+                        <input type="text" class="form-control" placeholder="Organization Address" name="oaddress">
                         <input type="text" class="form-control" placeholder="Pincode" name="oPincode">
                     </div>
                     <div class="form-row">
