@@ -22,7 +22,7 @@
                     <h2><a class="nav-link active" href="login.jsp">Home</a></h2>
                     <h2><a class="nav-link active" href="registration.jsp">Food Provider Registration</a></h2>
                         <h2><a class="nav-link" href="OrphanageReg.jsp">Food Receiver Registration</a></h2>
-                    <h3>Hotel Registration</h3>
+                    <h3>Provider Registration</h3>
                     <div class="form-row">
                         <input type="text" class="form-control" placeholder="Hotel Name" name="hName">
                         <input type="text" class="form-control" placeholder="Contact No" name="hCont">

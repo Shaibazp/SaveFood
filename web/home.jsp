@@ -86,11 +86,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="w3ls_banner_section">
 		<div class="container">
 			<h2>Education Needs Complete <span>Solution</span></h2>
-			
-			
-			
-			
-			
 		</div>
 	</div>
 <!-- //banner -->

@@ -104,54 +104,7 @@
             </div>
         </section><!-- End Hero -->
 
-        <main id="main">
-            <section id="about" class="about">
-                <h3 style="color: white;"><center>Food Request Details</center></h3>
-                <div class="container" data-aos="fade-up">
-                    <div class="row">
-                        <table class="table" style="color: white">
-                            <thead class="thead-light">
-                                <tr>
-                                    <th scope="col">Sr No</th>
-                                    <th scope="col">Food Type</th>
-                                    <th scope="col">Food Menu</th>
-                                    <th scope="col">No. of plates</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <%
-                                    String user = (String)session.getAttribute("unm").toString();
-                                    try 
-                                    {
-                                        int c=1;
-                                        PreparedStatement pstmt = null;
-                                        PreparedStatement pstn1 = con.prepareStatement("select * from foodreq where hcont=? AND sts = ?");
-                                        pstn1.setString(1, user);
-                                        pstn1.setString(2, "0");
-                                        ResultSet rs = pstn1.executeQuery();
-                                        while (rs.next()) 
-                                        { 
-                                            %>
-                                                <tr>
-                                                    <th scope="row"><%= c++ %></th>
-                                                    <td><%= rs.getNString(2) %></td>
-                                                    <td><%= rs.getNString(3) %></td>
-                                                    <td><%= rs.getNString(4) %></td>
-                                                </tr>
-                                            <%
-                                        }
-                                    }
-                                    catch(Exception e)
-                                    {
-                                        System.out.println(e);
-                                    }
-                                %>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </section>
-        </main>
+
 
         <!-- ======= Footer ======= -->
         <footer id="footer">

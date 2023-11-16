@@ -6,7 +6,7 @@
     String pass = request.getParameter("pass");
     session.setAttribute("unm", usernm);
     
-    if(logintype.equals("Hotel"))
+    if(logintype.equals("Provider"))
     {
         try 
         {
